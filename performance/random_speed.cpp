@@ -392,6 +392,32 @@ int main(int argc, char*argv[])
   run(iter, "xoshiro128f", boost::random::xoshiro128f());
   run(iter, "xoshiro128mm", boost::random::xoshiro128mm());
 
+  run(iter, "maxeqdist_well19937a", boost::random::maxeqdist_well19937a());
+  run(iter, "maxeqdist_well19937b", boost::random::maxeqdist_well19937b());
+  run(iter, "maxeqdist_well21701a", boost::random::maxeqdist_well21701a());
+  run(iter, "maxeqdist_well23209a", boost::random::maxeqdist_well23209a());
+  run(iter, "maxeqdist_well23209b", boost::random::maxeqdist_well23209b());
+  run(iter, "maxeqdist_well44497a", boost::random::maxeqdist_well44497a());
+  run(iter, "maxeqdist_well800a", boost::random::maxeqdist_well800a());
+  run(iter, "maxeqdist_well800b", boost::random::maxeqdist_well800b());
+  run(iter, "well1024a", boost::random::well1024a());
+  run(iter, "well1024b", boost::random::well1024b());
+  run(iter, "well19937a", boost::random::well19937a());
+  run(iter, "well19937b", boost::random::well19937b());
+  run(iter, "well19937c", boost::random::well19937c());
+  run(iter, "well21701a", boost::random::well21701a());
+  run(iter, "well23209a", boost::random::well23209a());
+  run(iter, "well23209b", boost::random::well23209b());
+  run(iter, "well44497a", boost::random::well44497a());
+  run(iter, "well44497b", boost::random::well44497b());
+  run(iter, "well512a", boost::random::well512a());
+  run(iter, "well521a", boost::random::well521a());
+  run(iter, "well521b", boost::random::well521b());
+  run(iter, "well607a", boost::random::well607a());
+  run(iter, "well607b", boost::random::well607b());
+  run(iter, "well800a", boost::random::well800a());
+  run(iter, "well800b", boost::random::well800b());
+
 #ifdef HAVE_MT19937INT_C
   // requires the original mt19937int.c
   run<float>(iter, "mt19937 original");   // coded for sgenrand()/genrand()

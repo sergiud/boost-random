@@ -67,6 +67,7 @@ doxygen_files =
     uniform_smallint
     variate_generator
     weibull_distribution
+    well
     xor_combine
     traits
     splitmix64
