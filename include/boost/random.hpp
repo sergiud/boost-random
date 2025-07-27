@@ -47,6 +47,7 @@
 #include <boost/random/shuffle_output.hpp>
 #include <boost/random/subtract_with_carry.hpp>
 #include <boost/random/taus88.hpp>
+#include <boost/random/well.hpp>
 #include <boost/random/xor_combine.hpp>
 #include <boost/random/splitmix64.hpp>
 #include <boost/random/xoshiro.hpp>
